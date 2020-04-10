@@ -1,0 +1,13 @@
+_PIN_MANAGER_Initialize: CODE, 440 0 22
+_WDT_Initialize: CODE, 539 0 4
+_TMR0_clearExpireFlag: CODE, 491 0 14
+_main: CODE, 413 0 27
+__initialization: CODE, 19 0 19
+_INTERRUPT_InterruptManager: CODE, 4 0 13
+_OSCILLATOR_Initialize: CODE, 529 0 10
+_SYSTEM_Initialize: CODE, 517 0 12
+_TMR0_ISR: CODE, 347 0 66
+_irRemote_Analizar: CODE, 41 0 306
+_TMR0_expire: CODE, 477 0 14
+_TMR0_Initialize: CODE, 462 0 15
+Total: 522
