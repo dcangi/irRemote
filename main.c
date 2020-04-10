@@ -77,25 +77,14 @@ void main(void)
     while (1)
     {
         // Add your application code
-        
-        
-        if (irRemote_isIdle) 
+        if (irrecv.decode(&results)) 
         {
-            // esta idle, entonces leo??? Ver como!!!
-            
-            
-            
-            irRemote_resume(); // Receive the next value
+
+            irrecv.resume(); // Receive the next value
         }
         
     }
 }
-
-//if (irrecv.decode(&results)) 
-//{
-//    
-//    irrecv.resume(); // Receive the next value
-//}
 
 /**
  End of File

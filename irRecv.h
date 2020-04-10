@@ -8,16 +8,15 @@
 #ifndef IRRECV_H
 #define	IRRECV_H
 
-#ifdef	__cplusplus
-extern "C" {
-#endif
+
+// public:
+//IRrecv (int recvpin) ;
+
+uint8_t     irRecv_decode       ( decode_results *results );
+uint8_t     irRecv_isIdle       ( void );
+void        irRecv_resume       ( void );
 
 
-
-
-#ifdef	__cplusplus
-}
-#endif
 
 #endif	/* IRRECV_H */
 
